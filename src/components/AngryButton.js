@@ -2,7 +2,7 @@ import { useState } from "react";
 
 function AngryButton(props) {
 
-  const [anger, setAnger] = useState();
+  const [anger, setAnger] = useState(0);
 
   return (
     <button className="AngryButton" style={{backgroundColor: `rgba(255,0,0,${anger})`}}>
